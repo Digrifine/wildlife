@@ -18,7 +18,7 @@
                     <h1>WILDLIFE</h1>
                 </div>
                 <nav class="nav">
-                    <ul class="menu">
+                    <ul class="nav__list">
                         <li><a class="nav__link" href="#">Blog</a></li>
                         <li><a class="nav__link"href="#">Contacts</a></li>
                         <li><a class="nav__img"href="#"><img src="assets/search.png" alt="search"></a></li>
@@ -44,8 +44,8 @@
     <main class="main">
         <section class="article">
             <div class="container">
-                <h4 class="article__title">Latest articles</h4>
-                <h5 class="article__subtitle">Breaking news from the wild</h5>
+                <h2 class="article__title">Latest articles</h2>
+                <h2 class="article__subtitle">Breaking news from the wild</h2>
                 <div class="article__slider">
                     <img src="assets/leftarrow.svg" alt="prev" class="slider__button-prev">
                     <div class="slider__wrapper">
@@ -77,10 +77,49 @@
                 </div>
             </div>
         </section>
+        <section class="notification">
+            <div class="container">
+                <h3 class="notification_title">Get notified about new amazing articles</h3>
+                <form class="notification__form">
+                    <input type="text" placeholder="Email" class="notification__input">
+                    <input type="submit" value="Send" class="notification__button-submit">
+                </form>
+            </div>
+        </section>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <div class="container">
+            <div class="fotter__wrapper">
+                <div class="logo">
+                    <img src="assets/logo.svg" alt="WILDLIFE">
+                    <h1>WILDLIFE</h1>
+                </div>
+                <div class="menu">
+                    <ul class="menu__list">
+                        <li><a class="fotter__nav-link" href="#">Articles</a></li>
+                        <li><a class="fotter__nav-link"href="#">About us</a></li>
+                        <li><a class="fotter__nav-link"href="#">Learn more</a></li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <ul class="social__list">
+                        <li class="social__item social__fb">
+                            <a href="#" class="social__link"></a>
+                        </li>
+                        <li class="social__item social__inst">
+                            <a href="#" class="social__link"></a>
+                        </li>
+                        <li class="social__item social__pint">
+                            <a href="#" class="social__link"></a>
+                        </li>
+                        <li class="social__item social__telegram">
+                            <a href="#" class="social__link"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
